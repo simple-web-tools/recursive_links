@@ -25,8 +25,17 @@ and I include it like this
     <script src="/js/recursive_links/scripts.js"></script>
 ```
 
+## creating recursive links
 
-### getting updates
+To create recursive all you have to do is create a link of this form
+```js
+<a class="rlink" href="/path/to/html_file.html#id-of-element-on-that-page">text for link</a>
+```
+
+This creates a recursive link, so long as the `scripts.js` file has been included in the script tag as mentioned above.
+
+
+## getting updates
 
 This script is pretty stable and probably won't change all that much, but if you downloaded the file, you can come back here occasionally and check for updates.
 
